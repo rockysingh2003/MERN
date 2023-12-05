@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wassup chat app</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    
+    <section class="chat__section">
+      
+        <!-- this section is the top of the messaging section -->
+        <div class="brand">
+          <img height="40" src="/wassup.png">
+          <h1>Wassup</h1>
+        </div>
+      
+        <!-- below code is the message area where the message are visible  -->
+        <div class="message__area">
+            <!-- <div class="incoming message">
+                <h3>Rakesh</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, perferendis!</p>
+            </div>
+
+
+            <div class="outgoing message">
+                <h3>Suresh</h3>
+                <p>Lorem, ipsum dolor sit asgsrgrgrwemet consectetur adipisicing elit. Nisi, perferendis!</p>
+            </div> -->
+        </div>
+
+
+        <!-- below is the area of the typing the message  -->
+        <div>
+            <textarea  id="textarea" cols="30" rows="1" placeholder="type your message please "></textarea>
+        </div>
+
+    </section>
+
+
+
+    <script src="/socket.io/socket.io.js">   </script>
+    <script src="/client.js"></script>
+</body>
+</html>
